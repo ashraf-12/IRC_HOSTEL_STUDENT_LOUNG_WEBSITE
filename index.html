@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unimap Student Lounge Booking - IRC</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="content-background">
+    <header>
+      <div class="header-content">
+        <img src="https://cegeogtech.unimap.edu.my/wp-content/uploads/2020/08/logo-unimap.png" alt="UniMAP Logo" class="logo-left">
+        <h1 id="page-title">Unimap Student Lounge Booking - IRC</h1>
+        <img src="IRC.png" alt="IRC Logo" class="logo-right">
+      </div>
+      <div id="clock"></div>
+
+      <!-- Language Switcher -->
+      <div class="language-switcher">
+        <span class="lang-label">EN</span>
+        <label class="switch">
+          <input type="checkbox" id="langToggle" onchange="toggleLanguage()">
+          <span class="slider round"></span>
+        </label>
+        <span class="lang-label">MS</span>
+      </div>
+    </header>
+
+    <div class="right-side">
+      <div class="instructions">
+        <h3 id="instructions-title">Important Instructions:</h3>
+        <p id="instruction-1">1. Booking must be made at least <b>3 hours before</b> the requested time.</p>
+        <p id="instruction-2">2️. To collect the keys, please contact:</p>
+        <table>
+          <thead>
+            <tr>
+              <th id="th-role">  Role  </th>
+              <th id="th-name">  Name  </th>
+              <th id="th-room">  Room  </th>
+              <th id="th-contact">  Contact  </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>MPKK Fellow</strong></td>
+              <td><strong>Murad Alwalidi</strong></td>
+              <td><strong>A-1-7-1</strong></td>
+              <td>
+                <a href="https://wa.me/qr/MF27IUWSVELFL1" class="wa-link" target="_blank" rel="noopener">
+                  <img src="whatsupicon.jpg" alt="WhatsApp" class="whatsapp-icon">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>MPKK</strong></td>
+              <td><strong>Ashraf Obad</strong></td>
+              <td><strong>A-2-6-1</strong></td>
+              <td>
+                <a href="https://wa.me/qr/F3JO5UZXEQTTL1" class="wa-link" target="_blank" rel="noopener">
+                  <img src="whatsupicon.jpg" alt="WhatsApp" class="whatsapp-icon">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container yellow-frame">
+        <h2 id="form-title">Booking Form</h2>
+        <form id="bookingForm"
+              action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdYCBBhfj_7Oa2xU17ADcriFkRJxup2repxSobJfzydTJ6HNw/formResponse"
+              method="POST"
+              target="hidden_iframe"
+              onsubmit="return handleSubmit();">
+          <label for="name" id="label-name">Name:</label>
+          <input class="input" type="text" id="name" name="entry.197220575" required>
+
+          <label for="matric" id="label-matric">Matric Number:</label>
+          <input class="input" type="text" id="matric" name="entry.1009552916" required>
+
+          <label for="phone" id="label-phone">Phone Number:</label>
+          <input class="input" type="tel" id="phone" name="entry.1592941642" required>
+
+          <label for="from" id="label-from">Booking From (Day & Time):</label>
+          <input class="input" type="datetime-local" id="from" name="entry.441085941" required>
+
+          <label for="to" id="label-to">Booking To (Day & Time):</label>
+          <input class="input" type="datetime-local" id="to" name="entry.631650623" required>
+
+          <button type="submit" class="yellow-button" id="submit-button">Submit Booking</button>
+        </form>
+        <div id="successMessage" class="success-message">
+          ✅ Your booking has been submitted successfully!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
