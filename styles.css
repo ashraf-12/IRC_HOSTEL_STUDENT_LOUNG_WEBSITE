@@ -9,7 +9,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   overflow-x: hidden;
-  background: url("https://scontent-sin11-2.xx.fbcdn.net/v/t39.30808-6/484034663_1031669152348303_778954328362314823_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=g4hjXp8NkgoQ7kNvwH8jh__&_nc_oc=AdmojxTOb2s4tJENVe6SNzb4KJn4WcxSK8MRDoL_5iODmzr5yLcWNJNYpU7eTYxI6y0&_nc_zt=23&_nc_ht=scontent-sin11-2.xx&_nc_gid=5qnBgmjX0l6Or3Hgmh-8Ig&oh=00_AfXBiA3vlPb4r0F_YbW8IeI_oI_9IWqyTh-r1GukkNdkmw&oe=68B80E98");
+  background: url("Canselori-Logo1.jpg");
+");
   background-size: cover;
 }
 
@@ -265,3 +266,4 @@ input:checked + .slider:before {
     margin: 0 auto;
   }
 }
+
