@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background: url("Canselori-Logo1.jpg");
-");
   background-size: cover;
 }
 
@@ -267,3 +266,29 @@ input:checked + .slider:before {
   }
 }
 
+.developer-box {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px solid #f3c623;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  color: #222;
+}
+
+.developer-box h2 {
+  color: #d4a100;
+  margin-bottom: 15px;
+}
+
+.developer-box a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.developer-box a:hover {
+  text-decoration: underline;
+}
