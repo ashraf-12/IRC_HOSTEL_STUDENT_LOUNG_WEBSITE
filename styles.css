@@ -290,7 +290,7 @@ input:checked + .slider:before {
 /* Added new styling to handle the alignment of the details */
 .developer-details p {
     /* Ensures the paragraph itself is treated as a block for the text-align property from the parent */
-    text-align: left; 
+    text-align: center; 
     /* Use flex on a container within the box to align the labels and values side-by-side */
     display: flex; 
     /* Just added a small margin for spacing */
@@ -315,3 +315,4 @@ input:checked + .slider:before {
 .developer-box a:hover {
   text-decoration: underline;
 }
+
