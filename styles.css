@@ -285,10 +285,11 @@ input:checked + .slider:before {
 
 .developer-box a {
   color: #007bff;
-  text-decoration: none;
+  text-decoration: center;
   font-weight: 500;
 }
 
 .developer-box a:hover {
   text-decoration: underline;
 }
+
