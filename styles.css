@@ -1,294 +1,317 @@
 /* General page style */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background: url("Canselori-Logo1.jpg");
-  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url("Canselori-Logo1.jpg");
+  background-size: cover;
 }
 
 .content-background {
-  background: transparent;
-  min-height: 100vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: transparent;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Header */
 header {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .logo-left, .logo-right {
-  height: 60px;
-  width: auto;
+  height: 60px;
+  width: auto;
 }
 
 header h1 {
-  margin: 0 15px;
-  font-size: 22px;
-  color: #003366;
-  flex-grow: 1;
-  text-align: center;
+  margin: 0 15px;
+  font-size: 22px;
+  color: #003366;
+  flex-grow: 1;
+  text-align: center;
 }
 
 /* Clock */
 #clock {
-  font-size: 16px;
-  font-weight: 600;
-  color: #555;
-  padding: 5px;
-  background-color: #f8f8f8;
-  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  padding: 5px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
 }
 
 /* Right side container */
 .right-side {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .instructions {
-  background-color: rgba(100, 149, 237, 0.9); /* Cornflower Blue */
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #1c3f7a;
+  background-color: rgba(100, 149, 237, 0.9); /* Cornflower Blue */
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1c3f7a;
 }
 
 .instructions h3 {
-  color: #ffffff;
-  margin-bottom: 15px;
-  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .instructions p {
-  color: #f0f8ff;
-  margin-bottom: 10px;
-  line-height: 1.5;
+  color: #f0f8ff;
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 
-.instructions table 
+.instructions table 
 {
-   display: block;
-    overflow-x: auto;
-     white-space: nowrap; }
+   display: block;
+    overflow-x: auto;
+     white-space: nowrap; }
 
-table 
+table 
 {
-   width: 100%;
-    border-collapse: collapse;
-     margin: 15px 0;
-      font-size: 14px;
-     }
+   width: 100%;
+    border-collapse: collapse;
+     margin: 15px 0;
+      font-size: 14px;
+     }
 
- table th, table td 
- {
-   padding: 10px; 
-   text-align: left;
-    border: 1px solid #ddd; 
-  }
-   table th 
-   {
-     background-color: #f2f2f2; 
-     font-weight: bold; } 
-     
+ table th, table td 
+ {
+   padding: 10px; 
+   text-align: left;
+    border: 1px solid #ddd; 
+  }
+   table th 
+   {
+     background-color: #f2f2f2; 
+     font-weight: bold; } 
+     
 /* WhatsApp icon */
- .whatsapp-icon
- {
-   width: 24px;
-    height: 24px;
-     vertical-align: middle;
-     }
- .wa-link
-  {
-     display: inline-block;
-      text-decoration: none;
-     }
+ .whatsapp-icon
+ {
+   width: 24px;
+    height: 24px;
+     vertical-align: middle;
+     }
+ .wa-link
+  {
+     display: inline-block;
+      text-decoration: none;
+     }
 
 /* Container - Form */
 .container {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .yellow-frame {
-  border: 2px solid #ffcc00;
-  padding: 25px;
+  border: 2px solid #ffcc00;
+  padding: 25px;
 }
 
 /* Form */
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 form label {
-  text-align: left;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .input {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 15px;
-  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
 }
 
 /* Submit button */
 .yellow-button {
-  padding: 14px;
-  background-color: #ffcc00;
-  color: #000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
+  padding: 14px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 .yellow-button:hover {
-  background-color: #e6b800;
+  background-color: #e6b800;
 }
 
 /* Success message */
 .success-message {
-  display: none;
-  background-color: #d4edda;
-  color: #155724;
-  padding: 12px;
-  border-radius: 5px;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: bold;
+  display: none;
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Language toggle */
 .language-switcher {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  gap: 10px;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  font-weight: bold;
 }
 
 .lang-label {
-  font-size: 14px;
-  color: #003366;
+  font-size: 14px;
+  color: #003366;
 }
 
 /* Professional language toggle with custom colors */
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 26px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
 }
 
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0; left: 0;
-  right: 0; bottom: 0;
-  background-color: #003366; /* Dark Blue for English */
-  transition: 0.4s;
-  border-radius: 34px;
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: #003366; /* Dark Blue for English */
+  transition: 0.4s;
+  border-radius: 34px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 20px; width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 20px; width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
 }
 
 /* Toggle ON state (Malay) */
 input:checked + .slider {
-  background-color: #ffcc00; /* Yellow for Malay */
+  background-color: #ffcc00; /* Yellow for Malay */
 }
 
 input:checked + .slider:before {
-  transform: translateX(24px);
+  transform: translateX(24px);
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .right-side {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-  }
+  .right-side {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
 
+/* UPDATED: Centering and alignment for the developer box */
 .developer-box {
-  max-width: 500px;
-  margin: 40px auto;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 3px solid #f3c623;
-  border-radius: 20px;
-  padding: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  color: #222;
+  max-width: 500px;
+  /* Existing centering: margin: 40px auto; */
+  margin: 40px auto;
+  
+  /* Added text centering for block elements like p and div inside the box */
+  text-align: center; 
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 3px solid #f3c623;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  color: #222;
 }
 
 .developer-box h2 {
-  color: #d4a100;
-  margin-bottom: 15px;
+  color: #d4a100;
+  margin-bottom: 15px;
 }
 
+/* Added new styling to handle the alignment of the details */
+.developer-details p {
+    /* Ensures the paragraph itself is treated as a block for the text-align property from the parent */
+    text-align: left; 
+    /* Use flex on a container within the box to align the labels and values side-by-side */
+    display: flex; 
+    /* Just added a small margin for spacing */
+    margin-bottom: 5px; 
+}
+/* New class for the list of details inside the box, to make them center-aligned */
+.developer-details-list {
+  /* Set max width and center the list container */
+  max-width: 250px; 
+  margin: 0 auto; 
+  /* Reset text alignment for the text within this container */
+  text-align: left; 
+}
+
+
 .developer-box a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .developer-box a:hover {
-  text-decoration: underline;
+  text-decoration: underline;
 }
